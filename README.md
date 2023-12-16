@@ -10,3 +10,16 @@ Tujuan utama dari penelitian ini adalah mengembangkan model berbasis CNN untuk m
 
 ## Dataset
 Dataset berasal dari dua sumber utama, yaitu pengumpulan data dari budidaya jamur tiram di Godean, Kabupaten Sleman, DI Yogyakarta, dan dataset yang tersedia di Kaggle melalui tautan [berikut](https://www.kaggle.com/datasets/maysee/mushrooms-classification-common-genuss-images). Dataset ini terdiri dari gambar-gambar jamur berwarna dengan ukuran yang bervariasi, mencakup representasi berbagai jenis jamur yang umumnya dijumpai. Data digunakan untuk melatih dan menguji model Convolutional Neural Network (CNN) dalam mengenali potensi racun dalam jamur.
+
+## Penggunaan
+
+1. Install dependensi dengan menjalankan perintah berikut:
+
+   ```shell
+   pip install -r requirements.txt
+
+2. Jalankan aplikasi dengan perintah berikut:
+   ```shell
+   streamlit run 1_Home.py
+
+3. Aplikasi akan berjalan di web browser lokal. Pilihlah salah satu fitur untuk memulai.
